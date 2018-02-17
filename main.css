@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+body{
+  font-family: 'Open Sans Condensed', sans-serif;
+  background: url("front-bg.png") repeat-x left 210px, url("bg.png") repeat-x left 170px, linear-gradient(lightblue 100px, skyblue 200px, #6ebdc4 100px, #acdfe8 100px, darkblue, black);
+}
+#counter {
+  border: 1px solid red;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 10px;
+  width: 200px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+
+}
+
+#canvas{
+    border: 1px solid blue;
+    position: relative;
+    margin: 0 auto;
+    width: 800px;
+    height: 10000px;
+    padding: 0;
+}
