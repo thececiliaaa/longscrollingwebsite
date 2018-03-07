@@ -150,11 +150,11 @@ body{
   /*border: 1px solid red;*/
   position: fixed;
   top: 320px;
-  left: 375px;
+  left: 500px;
   margin: 0 auto;
   width: 450px;
   height: 450px;
-  background-image: none;
+  background-image: url(https://placeimg.com/500/500/animals);
   z-index: 5;
 }
 
@@ -168,4 +168,160 @@ body{
   height: 200px;
   background-image: url(https://placeimg.com/600/200/animals);
   z-index: 4;
+}
+
+.fiftybg{
+  border: 1px solid red;
+  position: absolute;
+  top: 2430px;
+  left: 20px;
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  background-image: url(http://via.placeholder.com/300x300);
+  z-index: 3;
+}
+
+.sixtyinfo{
+  border: 1px solid green;
+  position: absolute;
+  top: 3050px;
+  left: 550px;
+  margin: 0 auto;
+  width: 600px;
+  height: 200px;
+  background-image: url(https://placeimg.com/600/200/animals);
+  z-index: 4;
+}
+
+.sixtybg{
+  border: 1px solid red;
+  position: absolute;
+  top: 3430px;
+  left: 20px;
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  background-image: url(http://via.placeholder.com/300x300);
+  z-index: 3;
+}
+
+.seventyinfo{
+  border: 1px solid green;
+  position: absolute;
+  top: 4050px;
+  left: 550px;
+  margin: 0 auto;
+  width: 600px;
+  height: 200px;
+  background-image: url(https://placeimg.com/600/200/animals);
+  z-index: 4;
+}
+
+.seventybg{
+  border: 1px solid red;
+  position: absolute;
+  top: 4430px;
+  left: 20px;
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  background-image: url(http://via.placeholder.com/300x300);
+  z-index: 3;
+}
+
+.eightyinfo{
+  border: 1px solid green;
+  position: absolute;
+  top: 5050px;
+  left: 550px;
+  margin: 0 auto;
+  width: 600px;
+  height: 200px;
+  background-image: url(https://placeimg.com/600/200/animals);
+  z-index: 4;
+}
+
+.eightybg{
+  border: 1px solid red;
+  position: absolute;
+  top: 5430px;
+  left: 20px;
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  background-image: url(http://via.placeholder.com/300x300);
+  z-index: 3;
+}
+
+.ninetyinfo{
+  border: 1px solid green;
+  position: absolute;
+  top: 6050px;
+  left: 550px;
+  margin: 0 auto;
+  width: 600px;
+  height: 200px;
+  background-image: url(https://placeimg.com/600/200/animals);
+  z-index: 4;
+}
+
+.ninetybg{
+  border: 1px solid red;
+  position: absolute;
+  top: 6430px;
+  left: 20px;
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  background-image: url(http://via.placeholder.com/300x300);
+  z-index: 3;
+}
+
+.ooinfo{
+  border: 1px solid green;
+  position: absolute;
+  top: 7050px;
+  left: 550px;
+  margin: 0 auto;
+  width: 600px;
+  height: 200px;
+  background-image: url(https://placeimg.com/600/200/animals);
+  z-index: 4;
+}
+
+.oobg{
+  border: 1px solid red;
+  position: absolute;
+  top: 7430px;
+  left: 20px;
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  background-image: url(http://via.placeholder.com/300x300);
+  z-index: 3;
+}
+
+.currentinfo{
+  border: 1px solid green;
+  position: absolute;
+  top: 8050px;
+  left: 550px;
+  margin: 0 auto;
+  width: 600px;
+  height: 200px;
+  background-image: url(https://placeimg.com/600/200/animals);
+  z-index: 4;
+}
+
+.currentbg{
+  border: 1px solid red;
+  position: absolute;
+  top: 8500px;
+  left: 20px;
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  background-image: url(http://via.placeholder.com/300x300);
+  z-index: 3;
 }

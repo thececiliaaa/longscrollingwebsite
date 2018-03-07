@@ -66,15 +66,25 @@ window.requestAnimationFrame = window.requestAnimationFrame
 
 var bgbanner = document.getElementById('bg-banner')
 var bgbanner2 = document.getElementById('bg-banner2')
-//var rockpic = document.getElementById('rockpic')
 var rockinfo = document.getElementById('rockinfo')
+var fiftybg = document.getElementById('fiftybg')
+var sixtybg = document.getElementById('sixtybg')
+var seventybg = document.getElementById('seventybg')
+var eightybg = document.getElementById('eightybg')
+var ninetybg = document.getElementById('ninetybg')
+var oobg = document.getElementById('oobg')
 
 function parallaxbubbles(){
  var scrolltop = window.pageYOffset // get number of pixels document has scrolled vertically
  bgbanner.style.top = -scrolltop * .4 + 50 + 'px' // move bubble1 at 20% of scroll rate
  bgbanner2.style.top = -scrolltop * .2 + 450 + 'px'
- //rockpic.style.top = -scrolltop * .1 + 1200 + 'px'
- rockinfo.style.top = -scrolltop * .2 + 1700 + 'px' // move bubble2 at 50% of scroll rate
+ rockinfo.style.top = -scrolltop * .2 + 1700 + 'px'
+ fiftybg.style.top = -scrolltop * .2 + 2900 + 'px'
+ sixtybg.style.top = -scrolltop * .2 + 3900 + 'px'
+ seventybg.style.top = -scrolltop * .2 + 5200 + 'px'
+ eightybg.style.top = -scrolltop * .2 + 6300 + 'px'
+ ninetybg.style.top = -scrolltop * .2 + 7600 + 'px'
+ oobg.style.top = -scrolltop * .2 + 8900 + 'px' // move bubble2 at 50% of scroll rate
 }
 
 window.addEventListener('scroll', function(){ // on page scroll
