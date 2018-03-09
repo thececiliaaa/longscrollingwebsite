@@ -3,7 +3,7 @@ var counter = document.getElementById('counter');
 var person = document.getElementById('person');
 var fromTop = window.pageYOffset;
 
-counter.innerHTML = 'Home';
+counter.innerHTML = 'HOME';
 
 
 
@@ -20,41 +20,41 @@ window.onscroll = function (){
     counter.style.top = 50 + fromTop + "px";
 
     if (fromTop < 1000){
-      counter.innerHTML = "Home";
-      counter.style.backgroundColor = "white";
+      counter.innerHTML = "HOME";
+      //counter.style.backgroundImage = "url(counter.svg)";
       person.style.backgroundImage = "none";
     } if (fromTop > 1000){
-      counter.innerHTML = "Rock Music";
-      counter.style.backgroundColor = "red";
+      counter.innerHTML = "Rock";
+      //counter.style.backgroundColor = "red";
       person.style.backgroundImage = "none";
     }if (fromTop > 2000){
       counter.innerHTML = "The 50's";
-      counter.style.backgroundColor = "orange";
-      person.style.backgroundImage = "url(https://placeimg.com/500/500/animals)";
+      //counter.style.backgroundColor = "orange";
+      person.style.backgroundImage = "url(elvis.svg)";
     } if (fromTop > 3000){
       counter.innerHTML = "The 60's";
-      counter.style.backgroundColor = "yellow";
-      person.style.backgroundImage = "url(https://placeimg.com/500/500/tech)";
+      //counter.style.backgroundColor = "yellow";
+      person.style.backgroundImage = "url(johnlennon.svg)";
     } if (fromTop > 4000){
       counter.innerHTML = "The 70's";
-      counter.style.backgroundColor = "green";
-      person.style.backgroundImage = "url(https://placeimg.com/500/500/animals)";
+      //counter.style.backgroundColor = "green";
+      person.style.backgroundImage = "url(ledzeppelin.svg)";
     } if (fromTop > 5000){
       counter.innerHTML = "The 80's";
-      counter.style.backgroundColor = "skyblue";
-      person.style.backgroundImage = "url(https://placeimg.com/500/500/tech)";
+      //counter.style.backgroundColor = "skyblue";
+      person.style.backgroundImage = "url(gunsnroses.svg)";
     } if (fromTop > 6000){
       counter.innerHTML = "The 90's";
-      counter.style.backgroundColor = "blue";
-      person.style.backgroundImage = "url(https://placeimg.com/500/500/animals)";
+      //counter.style.backgroundColor = "blue";
+      person.style.backgroundImage = "url(nirvana.svg)";
     } if (fromTop > 7000){
       counter.innerHTML = "2000's";
-      counter.style.backgroundColor = "violet";
-      person.style.backgroundImage = "url(https://placeimg.com/500/500/tech)";
+      //counter.style.backgroundColor = "violet";
+      person.style.backgroundImage = "url(linkinpark.svg)";
     } if (fromTop > 8000){
-      counter.innerHTML = "Current Scene";
-      counter.style.backgroundColor = "brown";
-      person.style.backgroundImage = "url(https://placeimg.com/500/500/animals)";
+      counter.innerHTML = "NOW";
+      //counter.style.backgroundColor = "brown";
+      person.style.backgroundImage = "url(twentyonepilots.svg)";
     }
 }
 
