@@ -18,58 +18,68 @@ body{
 }
 
 
-/*.home{
+.home{
+  border: 1px solid black;
   height: 1000px;
   z-index: 2;
 }
 
 .rock{
+  border: 1px solid black;
   height: 1000px;
   z-index: 2;
 }
 
 .fifties{
+  border: 1px solid black;
   height: 1000px;
   z-index: 2;
 }
 
 .sixties{
+  border: 1px solid black;
   height: 1000px;
   z-index: 2;
 }
 
 .seventies{
+  border: 1px solid black;
   height: 1000px;
   z-index: 2;
 }
 
 .eighties{
+  border: 1px solid black;
   height: 1000px;
   z-index: 2;
 }
 
 .nineties{
+  border: 1px solid black;
   height: 1000px;
   z-index: 2;
 }
 
 .oo{
+  border: 1px solid black;
   height: 1000px;
   z-index: 2;
 }
 
 .current{
+  border: 1px solid black;
   height: 1000px;
   z-index: 2;
-}*/
+}
 
 #counter {
+  border: 1px solid red;
   position: absolute;
   top: 50px;
   left: 5px;
   margin: 0;
   padding-left: 10px;
-  width: 200px;
+  width: 190px;
   height: 100px;
   line-height: 100px;
   text-indent: 5px;
@@ -198,7 +208,7 @@ body{
   width: 300px;
   height: 400px;
   background-image: url(fiftybg.svg);
-  z-index: 3;
+  z-index: 4;
 }
 
 .fiftytwo{
@@ -216,8 +226,8 @@ body{
 .sixtyinfo{
   border: 1px solid green;
   position: absolute;
-  top: 3050px;
-  left: 550px;
+  top: 3100px;
+  left: 420px;
   margin: 0 auto;
   width: 600px;
   height: 200px;
@@ -233,15 +243,26 @@ body{
 }
 
 .sixtybg{
+  position: absolute;
+  top: 320px;
+  left: 10px;
+  margin: 0 auto;
+  width: 380px;
+  height: 220px;
+  background-image: url(sixtybg.svg);
+  z-index: 3;
+}
+
+.sixtytwo{
   border: 1px solid red;
   position: absolute;
-  top: 3430px;
-  left: 20px;
+  top: 3550px;
+  left: 210px;
   margin: 0 auto;
-  width: 300px;
-  height: 300px;
-  background-image: url(http://via.placeholder.com/300x300);
-  z-index: 3;
+  width: 250px;
+  height: 250px;
+  background-image: url(sixtytwo.svg);
+  z-index: 2;
 }
 
 .seventyinfo{
@@ -266,13 +287,25 @@ body{
 .seventybg{
   border: 1px solid red;
   position: absolute;
-  top: 4430px;
-  left: 20px;
-  margin: 0 auto;
+  top: 4500px;
+  left: 100px;
+  margin-top: 150px;
   width: 300px;
-  height: 300px;
-  background-image: url(http://via.placeholder.com/300x300);
+  height: 200px;
+  background-image: url(seventybg.svg);
   z-index: 3;
+}
+
+.seventytwo{
+  border: 1px solid red;
+  position: absolute;
+  top: 4100px;
+  left: 200px;
+  margin: 0 auto;
+  width: 250px;
+  height: 400px;
+  background-image: url(seventytwo.svg);
+  z-index: 2;
 }
 
 .eightyinfo{
@@ -299,10 +332,22 @@ body{
   position: absolute;
   top: 5430px;
   left: 20px;
-  margin: 0 auto;
+  margin-top: 200px;
+  width: 350px;
+  height: 240px;
+  background-image: url(eightybg.svg);
+  z-index: 3;
+}
+
+.eightytwo{
+  border: 1px solid red;
+  position: absolute;
+  top: 5000px;
+  left: 200px;
+  margin-top: 200px;
   width: 300px;
   height: 300px;
-  background-image: url(http://via.placeholder.com/300x300);
+  background-image: url(eightytwo.svg);
   z-index: 3;
 }
 
@@ -371,7 +416,7 @@ body{
 .currentinfo{
   border: 1px solid green;
   position: absolute;
-  top: 8050px;
+  top: 8200px;
   left: 550px;
   margin: 0 auto;
   width: 600px;
@@ -390,7 +435,7 @@ body{
 .currentbg{
   border: 1px solid red;
   position: absolute;
-  top: 8000px;
+  top: 8500px;
   left: 20px;
   margin: 0 auto;
   width: 300px;
