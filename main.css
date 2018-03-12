@@ -86,7 +86,7 @@ body{
   font-family: 'Contrail One', cursive;
   font-size: 3em;
   color: white;
-  background-image: url(counter.svg);
+  background-image: url(counter.png);
   background-repeat: no-repeat;
   z-index: 5;
 }
