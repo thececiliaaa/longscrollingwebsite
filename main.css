@@ -122,7 +122,7 @@ body{
   margin: 0 auto;
   width: 1000px;
   height: 500px;
-  background-image: url(banner.svg);
+  background-image: url(banner.png);
   z-index: 4;
 }
 
