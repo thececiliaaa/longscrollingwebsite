@@ -244,7 +244,7 @@ body{
 
 .sixtybg{
   position: absolute;
-  top: 320px;
+  top: 3200px;
   left: 10px;
   margin: 0 auto;
   width: 380px;
@@ -254,7 +254,6 @@ body{
 }
 
 .sixtytwo{
-  border: 1px solid red;
   position: absolute;
   top: 3550px;
   left: 210px;
@@ -285,7 +284,6 @@ body{
 }
 
 .seventybg{
-  border: 1px solid red;
   position: absolute;
   top: 4500px;
   left: 100px;
@@ -297,7 +295,6 @@ body{
 }
 
 .seventytwo{
-  border: 1px solid red;
   position: absolute;
   top: 4100px;
   left: 200px;
@@ -328,7 +325,6 @@ body{
 }
 
 .eightybg{
-  border: 1px solid red;
   position: absolute;
   top: 5430px;
   left: 20px;
@@ -340,7 +336,6 @@ body{
 }
 
 .eightytwo{
-  border: 1px solid red;
   position: absolute;
   top: 5000px;
   left: 200px;
