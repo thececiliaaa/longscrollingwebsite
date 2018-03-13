@@ -5,6 +5,7 @@ var audio = document.getElementById('mySound');
 var fromTop = window.pageYOffset;
 
 counter.innerHTML = 'Hello!';
+audio.preload = "auto";
 
 
 //pseudocode - when the user is scrolling update the variable fromTop and make decisions to change stuff on the page
