@@ -34,6 +34,37 @@ body{
   z-index: 5;
 }
 
+.aboutbutton{
+  position: absolute;
+  top: 30px;
+  left: 1080px;
+  width: 80px;
+  height: 60px;
+  line-height: 60px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #513636;
+  border-radius: 10px;
+  color: white;
+}
+
+.aboutbutton:hover{
+  opacity: 0.5;
+}
+
+a.aboutlink:hover{
+  color: white;
+  opacity: 0.5;
+}
+
+a.aboutlink:active{
+  color: white;
+}
+
+a.aboutlink:visited{
+  color: white;
+}
+
 .banner{
   position: absolute;
   top: 180px;
@@ -403,4 +434,57 @@ body{
 
 .backtotop:hover {
   opacity: 0.5;
+}
+
+
+/* about page*/
+
+.blank{
+  width: 300px;
+  height: 230px;
+}
+
+.about{
+  left: 70px;
+  margin: 0 auto;
+  width: 400px;
+  height: 260px;
+  background-color: #513636;
+  border-radius: 20px;
+  opacity: 0.6;
+}
+
+p.abouttext{
+  width: 350px;
+  padding: 20px 20px 0 30px;
+  text-align: justify;
+  font-size: 1em;
+}
+
+.back{
+  width: 80px;
+  height: 60px;
+  line-height: 60px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #513636;
+  border-radius: 10px;
+  color: white;
+}
+
+.back:hover{
+  opacity: 0.5;
+}
+
+a.goback:hover{
+  color: white;
+  opacity: 0.5;
+}
+
+a.goback:active{
+  color: white;
+}
+
+a.goback:visited{
+  color: white;
 }
