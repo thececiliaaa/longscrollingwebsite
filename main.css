@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Contrail+One|Saira+Condensed');
 
 body{
-  background-image: url(homebg.png);
+  background-image: url(images/homebg.png);
   background-size: contain;
   font-family: 'Saira Condensed', sans-serif;
   color: white;
@@ -16,62 +16,6 @@ body{
   z-index: 1;
 }
 
-/*
-.home{
-  border: 1px solid black;
-  height: 1000px;
-  z-index: 2;
-}
-
-.rock{
-  border: 1px solid black;
-  height: 1000px;
-  z-index: 2;
-}
-
-.fifties{
-  border: 1px solid black;
-  height: 1000px;
-  z-index: 2;
-}
-
-.sixties{
-  border: 1px solid black;
-  height: 1000px;
-  z-index: 2;
-}
-
-.seventies{
-  border: 1px solid black;
-  height: 1000px;
-  z-index: 2;
-}
-
-.eighties{
-  border: 1px solid black;
-  height: 1000px;
-  z-index: 2;
-}
-
-.nineties{
-  border: 1px solid black;
-  height: 1000px;
-  z-index: 2;
-}
-
-.oo{
-  border: 1px solid black;
-  height: 1000px;
-  z-index: 2;
-}
-
-.current{
-  border: 1px solid black;
-  height: 1000px;
-  z-index: 2;
-}
-*/
-
 #counter {
   position: absolute;
   top: 50px;
@@ -85,34 +29,10 @@ body{
   font-family: 'Contrail One', cursive;
   font-size: 3em;
   color: white;
-  background-image: url(counter.png);
+  background-image: url(images/counter.png);
   background-repeat: no-repeat;
   z-index: 5;
 }
-
-/*.bg-banner{
-  position: absolute;
-  top: 50px;
-  left: 550px;
-  margin: 0 auto;
-  width: 600px;
-  height: 700px;
-  background-image: url(bgbanner.svg);
-  z-index: 3;
-  opacity: 0.4;
-}
-
-.bg-banner2{
-  position: absolute;
-  top: 60px;
-  left: 40px;
-  margin: 0 auto;
-  width: 450px;
-  height: 700px;
-  background-image: url(bgbannertwo.svg);
-  z-index: 3;
-  opacity: 0.4;
-}*/
 
 .banner{
   position: absolute;
@@ -121,7 +41,7 @@ body{
   margin: 0 auto;
   width: 1000px;
   height: 500px;
-  background-image: url(banner.png);
+  background-image: url(images/banner.png);
   z-index: 4;
 }
 
@@ -132,7 +52,7 @@ body{
   margin: 0 auto;
   width: 800px;
   height: 700px;
-  background-image: url(rockpic.svg);
+  background-image: url(images/rockpic.svg);
   z-index: 3;
 }
 
@@ -207,7 +127,7 @@ body{
   margin: 0 auto;
   width: 300px;
   height: 400px;
-  background-image: url(fiftybg.svg);
+  background-image: url(images/fiftybg.svg);
   z-index: 4;
 }
 
@@ -218,7 +138,7 @@ body{
   margin: 0 auto;
   width: 300px;
   height: 300px;
-  background-image: url(fiftytwo.svg);
+  background-image: url(images/fiftytwo.svg);
   z-index: 3;
 }
 
@@ -250,7 +170,7 @@ body{
   margin: 0 auto;
   width: 380px;
   height: 220px;
-  background-image: url(sixtybg.svg);
+  background-image: url(images/sixtybg.svg);
   z-index: 3;
 }
 
@@ -261,7 +181,7 @@ body{
   margin: 0 auto;
   width: 300px;
   height: 300px;
-  background-image: url(sixtytwo.svg);
+  background-image: url(images/sixtytwo.svg);
   z-index: 2;
 }
 
@@ -292,7 +212,7 @@ body{
   margin-top: 150px;
   width: 300px;
   height: 200px;
-  background-image: url(seventybg.svg);
+  background-image: url(images/seventybg.svg);
   z-index: 3;
 }
 
@@ -303,7 +223,7 @@ body{
   margin: 0 auto;
   width: 250px;
   height: 400px;
-  background-image: url(seventytwo.svg);
+  background-image: url(images/seventytwo.svg);
   z-index: 2;
 }
 
@@ -334,7 +254,7 @@ body{
   margin-top: 220px;
   width: 350px;
   height: 240px;
-  background-image: url(eightybg.svg);
+  background-image: url(images/eightybg.svg);
   z-index: 3;
 }
 
@@ -345,7 +265,7 @@ body{
   margin-top: 160px;
   width: 300px;
   height: 400px;
-  background-image: url(eightytwo.svg);
+  background-image: url(images/eightytwo.svg);
   z-index: 2;
 }
 
@@ -376,7 +296,7 @@ body{
   margin-top: 100px;
   width: 300px;
   height: 300px;
-  background-image: url(ninetybg.svg);
+  background-image: url(images/ninetybg.svg);
   z-index: 3;
 }
 
@@ -386,7 +306,7 @@ body{
   left: 130px;
   width: 400px;
   height: 300px;
-  background-image: url(ninetytwo.svg);
+  background-image: url(images/ninetytwo.svg);
   z-index: 2;
 }
 
@@ -417,7 +337,7 @@ body{
   margin-top: 5px;
   width: 250px;
   height: 400px;
-  background-image: url(oobg.svg);
+  background-image: url(images/oobg.svg);
   z-index: 3;
 }
 
@@ -427,7 +347,7 @@ body{
   left: 230px;
   width: 300px;
   height: 180px;
-  background-image: url(ootwo.svg);
+  background-image: url(images/ootwo.svg);
   z-index: 2;
 }
 
@@ -457,7 +377,7 @@ body{
   left: 20px;
   width: 400px;
   height: 300px;
-  background-image: url(currenttwo.svg);
+  background-image: url(images/currenttwo.svg);
   z-index: 2;
 }
 
@@ -468,7 +388,7 @@ body{
   margin-top: 60px;
   width: 300px;
   height: 300px;
-  background-image: url(currentbg.svg);
+  background-image: url(images/currentbg.svg);
   z-index: 3;
 }
 

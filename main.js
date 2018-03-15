@@ -32,39 +32,39 @@ window.onscroll = function (){
       audio.src = "none";
     }if (fromTop > 2000){
       counter.innerHTML = "The 50's";
-      music.style.backgroundImage = "url(musicbg.svg)";
-      person.style.backgroundImage = "url(elvis.svg)";
-      audio.src = "elvis.ogg";
+      music.style.backgroundImage = "url(images/musicbg.svg)";
+      person.style.backgroundImage = "url(images/elvis.svg)";
+      audio.src = "audio/elvis.ogg";
     } if (fromTop > 3000){
       counter.innerHTML = "The 60's";
-      music.style.backgroundImage = "url(musicbg.svg)";
-      person.style.backgroundImage = "url(johnlennon.svg)";
-      audio.src = "beatles.ogg";
+      music.style.backgroundImage = "url(images/musicbg.svg)";
+      person.style.backgroundImage = "url(images/johnlennon.svg)";
+      audio.src = "audio/beatles.ogg";
     } if (fromTop > 4000){
       counter.innerHTML = "The 70's";
-      music.style.backgroundImage = "url(musicbg.svg)";
-      person.style.backgroundImage = "url(ledzeppelin.svg)";
-      audio.src = "ledzeppelin.ogg";
+      music.style.backgroundImage = "url(images/musicbg.svg)";
+      person.style.backgroundImage = "url(images/ledzeppelin.svg)";
+      audio.src = "audio/ledzeppelin.ogg";
     } if (fromTop > 5000){
       counter.innerHTML = "The 80's";
-      music.style.backgroundImage = "url(musicbg.svg)";
-      person.style.backgroundImage = "url(gunsnroses.svg)";
-      audio.src = "gunsnroses.ogg";
+      music.style.backgroundImage = "url(images/musicbg.svg)";
+      person.style.backgroundImage = "url(images/gunsnroses.svg)";
+      audio.src = "audio/gunsnroses.ogg";
     } if (fromTop > 6000){
       counter.innerHTML = "The 90's";
-      music.style.backgroundImage = "url(musicbg.svg)";
-      person.style.backgroundImage = "url(nirvana.svg)";
-      audio.src = "nirvana.ogg";
+      music.style.backgroundImage = "url(images/musicbg.svg)";
+      person.style.backgroundImage = "url(images/nirvana.svg)";
+      audio.src = "audio/nirvana.ogg";
     } if (fromTop > 7000){
       counter.innerHTML = "2000's";
-      music.style.backgroundImage = "url(musicbg.svg)";
-      person.style.backgroundImage = "url(linkinpark.svg)";
-      audio.src = "linkinpark.ogg";
+      music.style.backgroundImage = "url(images/musicbg.svg)";
+      person.style.backgroundImage = "url(images/linkinpark.svg)";
+      audio.src = "audio/linkinpark.ogg";
     } if (fromTop > 8000){
       counter.innerHTML = "NOW";
-      music.style.backgroundImage = "url(musicbg.svg)";
-      person.style.backgroundImage = "url(twentyonepilots.svg)";
-      audio.src = "twentyonepilots.ogg";
+      music.style.backgroundImage = "url(images/musicbg.svg)";
+      person.style.backgroundImage = "url(images/twentyonepilots.svg)";
+      audio.src = "audio/twentyonepilots.ogg";
     }
 }
 
