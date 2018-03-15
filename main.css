@@ -73,7 +73,6 @@ body{
 */
 
 #counter {
-  border: 1px solid red;
   position: absolute;
   top: 50px;
   left: 5px;
@@ -182,14 +181,15 @@ body{
 }
 
 .fiftyinfo{
-  border: 1px solid green;
   position: absolute;
   top: 2100px;
-  left: 500px;
+  left: 550px;
   margin: 0 auto;
   width: 600px;
-  height: 200px;
-  background-image: url();
+  height: 275px;
+  background-color: #513636;
+  border-radius: 20px;
+  opacity: 0.6;
   z-index: 4;
 }
 
@@ -224,14 +224,15 @@ body{
 
 
 .sixtyinfo{
-  border: 1px solid green;
   position: absolute;
   top: 3100px;
-  left: 420px;
+  left: 470px;
   margin: 0 auto;
   width: 600px;
-  height: 200px;
-  background-image: url();
+  height: 280px;
+  background-color: #513636;
+  border-radius: 20px;
+  opacity: 0.6;
   z-index: 4;
 }
 
@@ -265,14 +266,15 @@ body{
 }
 
 .seventyinfo{
-  border: 1px solid green;
   position: absolute;
   top: 4050px;
-  left: 550px;
+  left: 530px;
   margin: 0 auto;
   width: 600px;
-  height: 200px;
-  background-image: url();
+  height: 220px;
+  background-color: #513636;
+  border-radius: 20px;
+  opacity: 0.6;
   z-index: 4;
 }
 
@@ -306,14 +308,15 @@ body{
 }
 
 .eightyinfo{
-  border: 1px solid green;
   position: absolute;
   top: 5050px;
-  left: 550px;
+  left: 510px;
   margin: 0 auto;
   width: 600px;
-  height: 200px;
-  background-image: url();
+  height: 225px;
+  background-color: #513636;
+  border-radius: 20px;
+  opacity: 0.6;
   z-index: 4;
 }
 
@@ -347,14 +350,15 @@ body{
 }
 
 .ninetyinfo{
-  border: 1px solid green;
   position: absolute;
   top: 6050px;
   left: 550px;
   margin: 0 auto;
   width: 600px;
-  height: 200px;
-  background-image: url();
+  height: 280px;
+  background-color: #513636;
+  border-radius: 20px;
+  opacity: 0.6;
   z-index: 4;
 }
 
@@ -379,7 +383,7 @@ body{
 .ninetytwo{
   position: absolute;
   top: 6200px;
-  left: 150px;
+  left: 130px;
   width: 400px;
   height: 300px;
   background-image: url(ninetytwo.svg);
@@ -387,14 +391,15 @@ body{
 }
 
 .ooinfo{
-  border: 1px solid green;
   position: absolute;
   top: 7050px;
   left: 550px;
   margin: 0 auto;
   width: 600px;
-  height: 200px;
-  background-image: url();
+  height: 250px;
+  background-color: #513636;
+  border-radius: 20px;
+  opacity: 0.6;
   z-index: 4;
 }
 
@@ -427,14 +432,15 @@ body{
 }
 
 .currentinfo{
-  border: 1px solid green;
   position: absolute;
-  top: 8200px;
-  left: 550px;
+  top: 8180px;
+  left: 560px;
   margin: 0 auto;
   width: 600px;
-  height: 200px;
-  background-image: url();
+  height: 280px;
+  background-color: #513636;
+  border-radius: 20px;
+  opacity: 0.6;
   z-index: 4;
 }
 
@@ -447,8 +453,18 @@ body{
 
 .currentbg{
   position: absolute;
-  top: 8500px;
+  top: 8600px;
   left: 20px;
+  width: 400px;
+  height: 300px;
+  background-image: url(currenttwo.svg);
+  z-index: 2;
+}
+
+.currenttwo{
+  position: absolute;
+  top: 8240px;
+  left: 220px;
   margin-top: 60px;
   width: 300px;
   height: 300px;
@@ -456,39 +472,15 @@ body{
   z-index: 3;
 }
 
-.currenttwo{
+.backtotop{
   position: absolute;
-  top: 8240px;
-  left: 170px;
-  width: 400px;
-  height: 300px;
-  background-image: url(currenttwo.svg);
-  z-index: 2;
+	width: 60px;
+  height: 60px;
+	margin: 0 auto;
+	top: 8930px;
+	left: 1100px;
 }
 
-.button{
-  position: absolute;
-  top: 8930px;
-  left: 5px;
-  margin: 0 auto;
-  width: 110px;
-  height: 65px;
-  z-index: 3;
-}
-
-#myBtn {
-  border: 1px solid red;
-  z-index: 99;
-  font-size: 2em;
-  font-family: 'Saira Condensed', sans-serif;
-  outline: none;
-  background-color: #a00707;
-  color: white;
-  cursor: pointer;
-  padding: 15px 15px 0 15px;
-  border-radius: 4px;
-}
-
-#myBtn:hover {
-  background-color: #555;
+.backtotop:hover {
+  opacity: 0.5;
 }
