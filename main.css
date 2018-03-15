@@ -256,11 +256,11 @@ body{
 
 .sixtytwo{
   position: absolute;
-  top: 3550px;
-  left: 210px;
+  top: 3540px;
+  left: 190px;
   margin: 0 auto;
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   background-image: url(sixtytwo.svg);
   z-index: 2;
 }
@@ -392,7 +392,7 @@ body{
 
 .ooinfo{
   position: absolute;
-  top: 7050px;
+  top: 7030px;
   left: 550px;
   margin: 0 auto;
   width: 600px;
