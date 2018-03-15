@@ -8,7 +8,6 @@ body{
 }
 
 #canvas{
-  border: 1px solid blue;
   position: relative;
   margin: 0 auto;
   width: 1200px;
@@ -17,7 +16,7 @@ body{
   z-index: 1;
 }
 
-
+/*
 .home{
   border: 1px solid black;
   height: 1000px;
@@ -71,6 +70,7 @@ body{
   height: 1000px;
   z-index: 2;
 }
+*/
 
 #counter {
   border: 1px solid red;
