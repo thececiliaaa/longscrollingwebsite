@@ -95,7 +95,7 @@ var currentinfo = document.getElementById('currentinfo')
 function parallaxbubbles(){
  var scrolltop = window.pageYOffset // get number of pixels document has scrolled vertically
  bgbanner.style.top = -scrolltop * .4 + 50 + 'px' // move bubble1 at 20% of scroll rate
- bgbanner2.style.top = -scrolltop * .2 + 450 + 'px'
+ bgbanner2.style.top = -scrolltop * .2 + 60 + 'px'
  rockinfo.style.top = -scrolltop * .2 + 1700 + 'px'
  fiftybg.style.top = -scrolltop * .2 + 2900 + 'px'
  fiftyinfo.style.top = -scrolltop * .3 + 2800 + 'px'
@@ -137,7 +137,7 @@ var timeOut;
 function scrollToTop() {
 	if (document.body.scrollTop!=0 || document.documentElement.scrollTop!=0){
 		window.scrollBy(0,-50);
-		timeOut=setTimeout('scrollToTop()',10);
+		timeOut=setTimeout('scrollToTop()',3);
 	}
 	else clearTimeout(timeOut);
 }
