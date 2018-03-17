@@ -31,38 +31,38 @@ window.onscroll = function (){
       person.style.backgroundImage = "none";
       audio.src = "none";
     }if (fromTop > 2000){
-      counter.innerHTML = "The 50's";
-      music.style.backgroundImage = "url(images/musicbg.svg)";
+      counter.innerHTML = "The 50s";
+      music.style.backgroundImage = "url(images/musicbg.png)";
       person.style.backgroundImage = "url(images/elvis.svg)";
       audio.src = "audio/elvis.ogg";
     } if (fromTop > 3000){
-      counter.innerHTML = "The 60's";
-      music.style.backgroundImage = "url(images/musicbg.svg)";
+      counter.innerHTML = "The 60s";
+      music.style.backgroundImage = "url(images/musicbg.png)";
       person.style.backgroundImage = "url(images/johnlennon.svg)";
       audio.src = "audio/beatles.ogg";
     } if (fromTop > 4000){
-      counter.innerHTML = "The 70's";
-      music.style.backgroundImage = "url(images/musicbg.svg)";
+      counter.innerHTML = "The 70s";
+      music.style.backgroundImage = "url(images/musicbg.png)";
       person.style.backgroundImage = "url(images/ledzeppelin.svg)";
       audio.src = "audio/ledzeppelin.ogg";
     } if (fromTop > 5000){
-      counter.innerHTML = "The 80's";
-      music.style.backgroundImage = "url(images/musicbg.svg)";
+      counter.innerHTML = "The 80s";
+      music.style.backgroundImage = "url(images/musicbg.png)";
       person.style.backgroundImage = "url(images/gunsnroses.svg)";
       audio.src = "audio/gunsnroses.ogg";
     } if (fromTop > 6000){
-      counter.innerHTML = "The 90's";
-      music.style.backgroundImage = "url(images/musicbg.svg)";
+      counter.innerHTML = "The 90s";
+      music.style.backgroundImage = "url(images/musicbg.png)";
       person.style.backgroundImage = "url(images/nirvana.svg)";
       audio.src = "audio/nirvana.ogg";
     } if (fromTop > 7000){
-      counter.innerHTML = "2000's";
-      music.style.backgroundImage = "url(images/musicbg.svg)";
+      counter.innerHTML = "2000s";
+      music.style.backgroundImage = "url(images/musicbg.png)";
       person.style.backgroundImage = "url(images/linkinpark.svg)";
       audio.src = "audio/linkinpark.ogg";
     } if (fromTop > 8000){
       counter.innerHTML = "NOW";
-      music.style.backgroundImage = "url(images/musicbg.svg)";
+      music.style.backgroundImage = "url(images/musicbg.png)";
       person.style.backgroundImage = "url(images/twentyonepilots.svg)";
       audio.src = "audio/twentyonepilots.ogg";
     }
@@ -93,8 +93,8 @@ var currentbg = document.getElementById('currentbg')
 var currentinfo = document.getElementById('currentinfo')
 
 function parallaxbubbles(){
- var scrolltop = window.pageYOffset // get number of pixels document has scrolled vertically
- bgbanner.style.top = -scrolltop * .4 + 50 + 'px' // move bubble1 at 20% of scroll rate
+ var scrolltop = window.pageYOffset
+ bgbanner.style.top = -scrolltop * .4 + 50 + 'px'
  bgbanner2.style.top = -scrolltop * .2 + 60 + 'px'
  rockinfo.style.top = -scrolltop * .2 + 1700 + 'px'
  fiftybg.style.top = -scrolltop * .2 + 2900 + 'px'
@@ -110,11 +110,11 @@ function parallaxbubbles(){
  oobg.style.top = -scrolltop * .2 + 8850 + 'px'
  ooinfo.style.top = -scrolltop * .3 + 9200 + 'px'
  currentbg.style.top = -scrolltop * .2 + 10250 + 'px'
- currentinfo.style.top = -scrolltop * .3 + 10700 + 'px' // move bubble2 at 50% of scroll rate
+ currentinfo.style.top = -scrolltop * .3 + 10700 + 'px'
 }
 
-window.addEventListener('scroll', function(){ // on page scroll
- requestAnimationFrame(parallaxbubbles) // call parallaxbubbles() on next available screen paint
+window.addEventListener('scroll', function(){
+ requestAnimationFrame(parallaxbubbles)
 }, false)
 
 function topFunction() {

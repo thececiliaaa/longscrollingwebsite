@@ -36,7 +36,7 @@ body{
 
 .aboutbutton{
   position: absolute;
-  top: 30px;
+  top: 60px;
   left: 1080px;
   width: 80px;
   height: 60px;
@@ -107,7 +107,6 @@ a.aboutlink:visited{
 }
 
 #person{
-  /*border: 1px solid red;*/
   position: fixed;
   display: inline-block;
   top: 320px;
